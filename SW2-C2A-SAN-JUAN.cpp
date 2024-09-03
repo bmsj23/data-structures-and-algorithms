@@ -454,8 +454,7 @@ int main()
         cout << "Total Expenses: P" << totalPaintingCost + totalFlooringCost + totalLaborCost << endl;
         cout << "Total Number of Days: " << finalTotalDays << " days" << endl;
 
-        cout << endl
-             << "Try again? (Y/N): ";
+        cout << endl << "Try again? (Y/N): ";
         cin >> choice;
 
         totalPaintingCost = 0.0;
